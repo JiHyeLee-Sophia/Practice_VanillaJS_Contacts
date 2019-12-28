@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+}
+#backg{
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+    min-height: 350px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+body h1{
+    width:300px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#contact{
+    display:flex;
+}
+#contact button,
+#contact input{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    color:white;
+}
+.pad-10{
+    padding:10px;
+}
+.pad-5{
+    padding:5px;
+}
+header h2{
+    
+    width:300px
+}
+#contact input::placeholder{
+    color:white;
+}
+.alphabet{
+    width:250px;
+    list-style: none;
+}
+span.alphTitle{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    color:white;
+    display:block;
+    width:30px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.dis-non{
+    display:none;
+}
+.show{
+    display: block;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.delete{
+    background-color: rgba(100 , 100, 100, 0);
+    border-color: rgba(100 , 100, 100, 0);
+    color: tomato;
+    cursor: pointer;
+}
